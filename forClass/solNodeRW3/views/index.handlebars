@@ -1,0 +1,17 @@
+
+<div id="3d" ></div>
+
+<script src="/static/js/main.js"></script>
+<script src="/static/js/draw.js"></script>
+
+<script>
+    const div3d=document.getElementById("3d");
+    var scene, camera, renderer, light, controls;
+    var ang=0.0;
+    var meshArr=[];
+
+    var txtr0=new THREE.TextureLoader().load("/static/assets/img/earth3.jpg");
+
+    setup();
+    setInterval(draw, 100);
+</script>

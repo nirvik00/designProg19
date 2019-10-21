@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0.0,
+        "fname": "fname0",
+        "lname": "lname0"
+    },
+    {
+        "id": 1.0,
+        "fname": "fname1",
+        "lname": "lname1"
+    },
+    {
+        "id": 2.0,
+        "fname": "fname2",
+        "lname": "lname2"
+    }
+]

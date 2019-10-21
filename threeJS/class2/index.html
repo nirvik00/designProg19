@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="libs/three.min.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/draw.js"></script>
+
+</head>
+<body>
+    
+    <div id="3d"></div>
+
+    <script>
+        const div3d=document.getElementById("3d");
+        var scene, camera, renderer, controls;
+
+        setup();
+        setInterval(draw, 100);
+    </script>
+    
+
+
+</body>
+</html>
